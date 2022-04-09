@@ -1,0 +1,153 @@
+.item1{
+    position: relative;
+    left: 230px;
+    top: 120px;
+    font-size: xx-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.item2{
+    font-weight: lighter;
+    font-size: larger;
+    color: gray;
+    position: relative;
+    left: 690px;
+    top: 90px;
+}
+.item3{
+    border: 1px solid rgb(250, 250, 250);
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    width: 600px;
+}
+.giri{
+    text-decoration: none;
+    color: rgb(199, 142, 142);
+    font-weight: lighter;
+}
+
+
+
+
+.item4{
+    color: rgb(237, 151, 151);
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 130px;
+    height: 200px;
+    padding: 10px;
+    text-align: end;
+    box-shadow: 5px 5px 2px rgb(204, 191, 191) ;
+   
+}
+hr{
+    width: 127px;
+    position: relative;
+    left: 10px;
+    bottom: 40px;
+   background-color: black;
+}
+.sai{
+    position: relative;
+    left: 470px;
+    top: 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+.my1{
+    width: 127px;
+    position: relative;
+   left: 100px;
+    top: 50px;
+   background-color: rgb(2, 1, 1);
+}
+.my2{
+    width: 127px;
+    position: relative;
+    left: -240px;
+    top: 40px;
+   background-color: black;
+   
+}
+.sai2{
+    position: relative;
+    left: 560px;
+    top: 70px;
+    
+}
+.item5{
+    position: relative;
+    left: 500px;
+    top: 80px;
+}
+.giri2{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: rgb(238, 24, 24);
+    width: 300px;
+    height: 130px;
+    box-shadow: 5px 5px 2px rgb(204, 191, 191) ;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  position: relative;
+  left: 400px;
+  bottom: 120px; 
+}
+.test1{
+    align-self: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.test2{
+   align-self: center;
+}
+.test3{
+    color: white;
+    background-color: red;
+    width: 55px;
+    border-radius: 50px;
+    align-self: center;
+}
+.ra{
+    position: relative;
+    left: 10px;
+}
+ .in{
+     filter: blur(8px);
+ }
+.we{
+    position: relative;
+    bottom: 80px;
+    filter: blur(6px);
+}
+.giri3{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: rgb(238, 24, 24);
+    width: 300px;
+    height: 130px;
+    box-shadow: 5px 5px 2px rgb(204, 191, 191) ;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  position: relative;
+  left: 400px;
+ top: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
