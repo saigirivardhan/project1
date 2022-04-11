@@ -10,7 +10,7 @@
     font-size: larger;
     color: gray;
     position: relative;
-    left: 690px;
+    left: 950px;
     top: 90px;
 }
 .item3{
@@ -18,18 +18,24 @@
     margin: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
     left: 200px;
     top: 100px;
     width: 600px;
+   display: -ms-inline-grid;
+   column-gap: 30px;
+    
 }
 .giri{
     text-decoration: none;
     color: rgb(199, 142, 142);
     font-weight: lighter;
 }
-
+.win{
+    position: relative;
+    left: 105px;
+}
 
 
 
@@ -141,11 +147,68 @@ hr{
  top: 300px;
 }
 
+ 
 
-
-
-
-
+@media  (min-width:65px) and (max-width:1000px) {
+       .item2{
+           position: relative;
+           left: 400px;
+       }
+    .item3{
+        display: grid;
+        row-gap: 30px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+        }
+       .item4{
+          height: 40px;
+          width: 250px;
+        color: rgb(159, 144, 144);
+       }
+       .acc{
+           position: relative;
+          top: 21000px;
+          height: 130px;
+       }
+ }    
+@media (min-width:20px) and (max-width:1050px){
+     .acc1{
+         position: fixed;
+         right: 600px;
+        
+     }
+     .my1 , .my2 {
+          position: relative;
+          top: 2100px;
+     }
+    .item4{
+        position: fixed;
+       right: 100px;
+        width: 130px;
+        height: 200px;
+    }
+    .swim{
+        display: inline-block;
+    }
+}
+@media (min-width:100px) and (max-width:1100px) {
+    .giri2{
+       
+     position: fixed;
+     top: 250px;
+     left: 30px;
+ }
+}
+@media (min-width:100px) and (max-width:1100px) {
+    .giri3{
+       
+     position: fixed;
+     top: 250px;
+     left: 30px;
+ }
+}
 
 
 
